@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Class</title>
+</head>
+<body>
+	<button onclick="myFunction()">Hide elements</button>
+	
+	<h2 class="city">London</h2>
+	<p>Capital of England</p>
+	
+	<h2 class="city">Dhaka</h2>
+	<p>Capital of Bangladesh</p>
+	
+<script>
+	function myFunction() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+}
+</script>
+
+</body>
+
+</html>
